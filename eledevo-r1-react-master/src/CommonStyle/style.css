@@ -1,0 +1,48 @@
+.But {
+    width:100px ;
+    height :50px;
+    background-color: #BDD7EE !important ;
+    font-weight: 750 !important;
+    color: #000000 !important
+}
+
+.form-control {
+    height:50px
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px !important;
+}
+}
+
+.table-header{
+    background-color: #5B9BD5 !important
+}
+
+#student tr:nth-child(odd){background-color: #D2DEEF;}
+#student tr:nth-child(even){background-color: #EAEFF7;}
+
+table, th, td {
+    border: 2px solid white!important;
+  }
+
+
+.But2 {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+
+}
+
+.info {
+    display: flex !important;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+
+.container {
+    text-align: center
+}
